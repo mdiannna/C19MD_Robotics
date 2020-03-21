@@ -4,65 +4,108 @@
   <title>Global</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/index-style.css">
 
-  </style>
+</style>
 </head>
 <body>
   <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="#">Start Bootstrap</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="assets/img/logo.png"> <span class="logo-text">ROBOTICS</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <!-- <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#robot-delivery">Robot delivery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#hand-sanitizer">Auto hand sanitizer</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<!-- Full Page Image Header with Vertically Centered Content -->
-<header class="masthead">
-  <div class="container h-100">
-    <div class="row h-100 align-items-center">
-      <div class="col-12 text-center">
-        <h1 class="font-weight-light">Robotii impotriva raspindirii COVID-19</h1>
-        <!-- <p class="lead">A great starter layout for a landing page</p> -->
-        <div class="lead my-auto text-center">
+  <!-- Full Page Image Header with Vertically Centered Content -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-md-8">
+          <h1 class="font-weight-light">ROBOȚII
+            <br>
+            împotriva răspândirii
+            <br>
+
+          COVID-19</h1>
+          <!-- <p class="lead">A great starter layout for a landing page</p> -->
+          <div class="lead my-auto">
             <a href="robot_delivery.html" class="btn btn-primary ml-auto">Robot delivery</a>
             <a href="auto_hand_sanitizer.html" class="btn btn-primary">Automatic hand sanitizer</a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="assets/img/robot1.png" alt="Robot image" class="img img-fluid">
         </div>
 
       </div>
     </div>
-  </div>
-</header>
+  </header>
 
-<!-- Page Content -->
-<section class="py-5">
-  <div class="container">
-    <h2 class="font-weight-light">Despre</h2>
-    <p>Aici va fi descrierea ... Stay tuned...Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus ab nulla dolorum autem nisi officiis blanditiis voluptatem hic, assumenda aspernatur facere ipsam nemo ratione cumque magnam enim fugiat reprehenderit expedita.</p>
-  </div>
-</section>
+  <!-- Page Content -->
+  <section class="py-5" id="about">
+    <div class="container">
+      <h2 class="font-weight-light">Despre</h2>
+      <p>Aici va fi descrierea ... Stay tuned...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nibh tortor, gravida et ex et, pretium volutpat lectus. Donec purus risus, tempor ut erat sit amet, porta mollis ligula. Pellentesque vulputate purus eget tortor tristique, vitae volutpat ipsum vulputate. Quisque facilisis risus ut dui pharetra consequat. Sed vehicula id massa non bibendum. Nulla aliquet, nibh nec ornare iaculis, mauris purus convallis nunc, sed pretium metus odio sit amet mauris. Proin sollicitudin id nisi nec tempor.</p>
+    </div>
+  </section>
 
-    
+  <section class="py-5 section-gray" id="robot-delivery">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7">
+          <h2 class="font-weight-light">Robot delivery</h2>
+          <p>Aici va fi descrierea ... Stay tuned...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nibh tortor, gravida et ex et, pretium volutpat lectus. Donec purus risus, tempor ut erat sit amet, porta mollis ligula. Pellentesque vulputate purus eget tortor tristique, vitae volutpat ipsum vulputate. Quisque facilisis risus ut dui pharetra consequat. Sed vehicula id massa non bibendum. Nulla aliquet, nibh nec ornare iaculis, mauris purus convallis nunc, sed pretium metus odio sit amet mauris. Proin sollicitudin id nisi nec tempor.</p>    
+          <a href="robot_delivery.html" class="btn btn-primary ml-auto">Vezi mai mult</a>
+        </div> 
+        <div class="col-md-5">
+          <img src="assets/img/robot1.png" alt="Robot image" class="img img-fluid">
+        </div>  
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5" id="hand-sanitizer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <img src="assets/img/robot1.png" alt="Robot image" class="img img-fluid">
+        </div>  
+        <div class="col-md-7">
+          <h2 class="font-weight-light">Automatic hand sanitizer</h2>
+          <p>Aici va fi descrierea ... Stay tuned...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nibh tortor, gravida et ex et, pretium volutpat lectus. Donec purus risus, tempor ut erat sit amet, porta mollis ligula. Pellentesque vulputate purus eget tortor tristique, vitae volutpat ipsum vulputate. Quisque facilisis risus ut dui pharetra consequat. Sed vehicula id massa non bibendum. Nulla aliquet, nibh nec ornare iaculis, mauris purus convallis nunc, sed pretium metus odio sit amet mauris. Proin sollicitudin id nisi nec tempor.</p>    
+          <a href="auto_hand_sanitizer.html" class="btn btn-primary ml-auto">Vezi mai mult</a>
+        </div> 
+        
+      </div>
+    </div>
+  </section>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
+
