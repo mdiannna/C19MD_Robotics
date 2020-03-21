@@ -9,6 +9,4 @@ Stay tuned for more info
 - Andrei Copaci - Hardware & 3D Modelling
 - Cristian Comendant - Hardware
 - Florin Cazac - Hardware & Mentoring
-
-### Design template
-Special thanks for design template: http://freebiesbug.com/psd-freebies/global-futuristic-one-page-portfolio-psd-html/
+- Roman Gurduz - Design
