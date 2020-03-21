@@ -137,3 +137,15 @@ p.coming-soon {
   /*color: linear-gradient(360deg, #0D79FF 0%,  100%);*/
   color:#0CEFF5;
 }
+
+
+@media only screen and (max-width: 900px) {
+  body {
+    padding-top: 70px;
+  }
+  .masthead h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+
+  } 
+}
