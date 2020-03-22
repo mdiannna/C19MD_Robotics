@@ -1863,3 +1863,17 @@ body {
     box-shadow: 0px!important;
     border-radius: 0px!important;
 }
+
+.max-width-70 {
+	max-width: 70%;
+}
+
+.pt-2 {
+	padding-top: 2rem;
+}
+
+.img-responsive {
+	max-width:100%;
+	height:auto;
+	max-height: 80%;
+}
