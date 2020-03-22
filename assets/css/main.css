@@ -1300,6 +1300,12 @@ body {
     }
 }
 
+.only-mobile {
+   		display: none;
+   	}
+
+
+
 @media (max-width: 600px) {
     .about--banner {
         height: auto
@@ -1328,6 +1334,9 @@ body {
     .about--options {
         display: none
     }
+   	.only-mobile {
+   		display: block
+   	}
 }
 
 .contact {
@@ -1880,4 +1889,8 @@ body {
 
 .model-3d-title {
 	font-size: 2rem;
+}
+
+.video-model-3d {
+margin-top: -70px;
 }
