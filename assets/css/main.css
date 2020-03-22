@@ -1246,15 +1246,15 @@ body {
 }
 
 .about--options>a:nth-child(1) {
-    background-image: url("../img/about-winners.jpg")
+    background-image: url("../img/sanitizer1.png")
 }
 
 .about--options>a:nth-child(2) {
-    background-image: url("../img/about-philosophy.jpg")
+    background-image: url("../img/sanitizer2.png")
 }
 
 .about--options>a:nth-child(3) {
-    background-image: url("../img/about-history.jpg")
+    background-image: url("../img/sanitizer4.png")
 }
 
 .about--options>a:hover h3 {
