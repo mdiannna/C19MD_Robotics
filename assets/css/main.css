@@ -1877,3 +1877,7 @@ body {
 	height:auto;
 	max-height: 80%;
 }
+
+.model-3d-title {
+	font-size: 2rem;
+}
